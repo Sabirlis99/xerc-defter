@@ -95,7 +95,7 @@ fun HomeScreen(viewModel: ExpenseViewModel) {
             }
             Spacer(Modifier.height(6.dp))
             Text("Cəmi xərc", fontSize = 12.sp, color = InkSoft)
-            Row(verticalAlignment = Alignment.LastBaseline) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     money(state.monthTotal),
                     fontFamily = MonoNumbers, fontSize = 34.sp, fontWeight = FontWeight.Medium, color = Ink
